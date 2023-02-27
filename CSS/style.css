@@ -233,11 +233,6 @@ h2{
     padding: 9px 300px;
 }
 
-
-
-
-
-
 .educacion{
     margin-top: 50px;
     font-size: 70px;
@@ -256,10 +251,6 @@ h2{
     margin-bottom: 50px;
 }
 
-
-
-
-
 #about1{
     margin-top: 100px;
 }
@@ -274,14 +265,6 @@ h2{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
-
-
-
-
-
-
-
 
 .p3{
     text-align: left;
@@ -323,68 +306,81 @@ h2{
 }
 
 .parrafop3{
-    display: inline-block;
+    display: block;
+}
+
+.parrafop{
+    visibility: hidden;
+    display: none;
 }
 
 
 
 @media (max-width: 800px) {
-    .p3{
-        text-align: center;
-        margin-left: 90px;
-        margin-right: 90px;
-    }
-
     .saludo{
         text-align: center;
         margin-right: auto;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .p3{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
         text-align: justify;
     }
 
     .sobremi{
         text-align: center;
         margin-left: auto;
+        margin-top: 50px;
+        font-size: 50px;
     }
 
+    .box2{
+        display: flex;
+        width: 200px;
+        height: 220px;
+        justify-content: center;
+        text-align: center;
+        margin-left: 100px;
+        margin-top: -80px;
+        margin-bottom: -490px;
+    }
 
+    .parrafop3{
+        visibility: hidden;
+        display: block;
+    }
+
+    .parrafop{
+        visibility: visible;
+        display: block;
+    }
 
     .p2{
         text-align: center;
-        margin-left: 90px;
-        margin-right: 90px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
     }
 
     .educacion{
+        margin-top: 50px;
+        font-size: 50px;
         text-align: center;
         margin-right: auto;
-        text-align: justify;
     }
 
     .titulos{
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 10px;
         font-weight: lighter;
+        margin-top: -80px;
+        text-align: justify;
     }
-
-    .parrafop3{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        
-    }
-
-
-    
 }
-
-
-
-
-
-
-
-
-
 
 /*---------------- FOOTER --------------*/
 /*
@@ -416,4 +412,3 @@ footer{
     margin: 0 auto;
 
 }
-
