@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.5,1.5);
+}
+
+
+.header .enlaces{
+    list-style: none;
+    text-decoration: line-through;
+    
+}
+
+.header .enlaces li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .enlaces li:hover{
+    transform: scale(1.1);
+}
+
+.header .enlaces li a:hover{
+    color: #EA00D9;
+}
+
+.header .enlaces a{
+    font-size: 700;
+    color: #711C91;
+    text-decoration: none;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #EFBBFF;
+    padding: 9px 25px;
+    background: #711C91;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    transform: scale(1.1);
+    color: #EA00D9;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    /*background-image: url(/src/img/img1.jpg);*/
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.flex-container{
+    display: flex;
+    /*flex-wrap: nowrap;*/
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cursos{
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 120px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+}
+
+.java{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.html5{
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.photo{
+    width: 250px;
+    height: 135px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.illu{
+    width: 230px;
+    height: 135px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.dream{
+    width: 250px;
+    height: 135px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+
+.perfil .box{
+    display: flex;
+    text-align: center;
+}
+
+.perfil2{
+    width: 250px;
+    height: auto;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.java .html5 .photo .illu .dream{
+    display: flex;
+    text-align: center;
+}
+
+ /*------ Animar imagen de perfil ------*/ 
+
+.box:hover{
+    animation: shake 2.9s;
+    animation-iteration-count: infinite;
+}
+
+.box1:hover{
+    animation: shake 2.9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+ /* ------------------------------------------------------- */ 
+
+h1{
+    text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+h2{
+    padding: 9px 300px;
+}
+
+
+
+
+
+
+.educacion{
+    margin-top: 50px;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 390px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gracias{
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+#about1{
+    margin-top: 100px;
+}
+
+.titulos{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: lighter;
+}
+
+#educa{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+.p3{
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: lighter;
+}
+
+.saludo{
+    margin-top: 50px;
+    font-size: 100px;
+    text-align: right;
+    margin-right: 390px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.sobremi{
+    text-align: left;
+    margin-left: 300px;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box2{
+    display: inline-block;
+    margin-left: 350px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.p2{
+    text-align: left;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+
+
+@media (max-width: 800px) {
+    .p3{
+        text-align: center;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .saludo{
+        text-align: center;
+        margin-right: auto;
+        text-align: justify;
+    }
+
+    .sobremi{
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .box2{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .p2{
+        text-align: center;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .educacion{
+        text-align: center;
+        margin-right: auto;
+        text-align: justify;
+    }
+
+    .titulos{
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: lighter;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------- FOOTER --------------*/
+/*
+footer{
+    text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+    background-color: #711C91;
+	clear: both;
+}*/
+
+footer{
+	color: white;
+	overflow: hidden;
+    background-color: #02111B;
+	padding: 20px 50px;
+	text-align: center;
+	clear:both;
+    font-weight: lighter;
+}
+
+.p1{
+    color: white;
+    font-size: 15px;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+
