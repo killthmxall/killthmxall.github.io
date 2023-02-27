@@ -293,6 +293,10 @@ h2{
     font-weight: lighter;
 }
 
+.parrafop3{
+    display: inline-block;
+}
+
 
 
 @media (max-width: 800px) {
@@ -335,6 +339,12 @@ h2{
         margin-left: auto;
         margin-right: auto;
         font-weight: lighter;
+    }
+
+    .parrafop3{
+        display: flex;
+        justify-content: center;
+        
     }
 
 
